@@ -1,0 +1,43 @@
+.route-block,
+.webhook-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.route-block label,
+.webhook-block label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.route-block input,
+.route-block select,
+.route-block textarea,
+.webhook-block input,
+.webhook-block select,
+.webhook-block textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.route-block button.remove-route,
+.webhook-block button.remove-webhook {
+    background: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#route-list-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#route-list-container th,
+#route-list-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
